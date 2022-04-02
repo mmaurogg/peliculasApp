@@ -1,0 +1,8 @@
+<h1>Buscar peliculas <small>{{texto}}</small></h1>
+<hr>
+
+<app-pelucilas-poster-grid
+  *ngIf="movies.length > 0"
+  [movies]="movies">
+</app-pelucilas-poster-grid>
+
